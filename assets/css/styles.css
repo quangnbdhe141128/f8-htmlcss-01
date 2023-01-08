@@ -57,6 +57,9 @@ a {
 }
 .hero-wrap {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background: #e6f0ff;
   height: calc(100vh - 90px);
 }
@@ -92,9 +95,6 @@ a {
   border-radius: 8px;
 }
 /* hero */
-.hero {
-  padding-top: 130px;
-}
 .hero .info {
   /* 559 cua info /1110 cua content */
   width: 51%;
